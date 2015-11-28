@@ -22,6 +22,7 @@ public class Sendmail {
         //prop.setProperty("mail.host", "smtp.sina.com");
         prop.setProperty("mail.transport.protocol", "smtp");
         prop.setProperty("mail.smtp.auth", "true");
+        //jjjj
         //使用JavaMail发送邮件的5个步骤
         //1、创建session
         Session session = Session.getInstance(prop);
